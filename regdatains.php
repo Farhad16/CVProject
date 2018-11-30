@@ -9,8 +9,9 @@ if ($name == "" || $username == "" || $email == "" || $password == "") {
 } else {
     $sql = "INSERT INTO user (name, username, email, password) VALUES ('$name','$username','$email','$password')";
     mysqli_query($conn, $sql);
-       //header("Location: http://localhost/project/lib/register.php");
+    header("Location: http://localhost/project/lib/register.php");
     mysqli_close($conn);
+    // new comment here
 }
 
 ?>
