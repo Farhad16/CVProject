@@ -1,0 +1,37 @@
+.info {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+    max-width: 400px;
+}
+.info td, .info th {
+    padding: 8px;
+}
+.info tr:nth-child(even){background-color: #f2f2f2;}
+
+.info th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+.pos a{
+    text-decoration: none;
+    color: #dddddd;
+    padding: 10px;
+}
+.pos a:hover{
+    text-decoration: none;
+    color: #dddddd;
+}
+.pos{
+    text-decoration: none;
+    color: #dddddd;
+    padding: 10px;
+}
+.pos :hover{
+    text-decoration: none;
+    color: #dddddd;
+}

@@ -10,17 +10,41 @@
         </div>
        <div class="panel-body">
            <div style="max-width:500px; margin: 0 auto;">
-                <form action="regdatains.php" method="POST">
+                <form action="regdatains.php" method="POST"><span id="demo"></span>
                     <div class="form-group">
-                        <label for="email">Your Name</label>
+                        <label for="name">Your Name</label>
                         <input type="text" id="name" name="name" class="form-control" />
                     </div> <div class="form-group">
-                        <label for="email">User Name</label>
-                        <input type="text" id="username" name="username" class="form-control" />
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" />
                     </div>
                     <div class="form-group">
-                        <label for="email">Email Address</label>
-                        <input type="text" id="email" name="email" class="form-control" />
+                        <label for="phone">Phone</label>
+                        <input type="number" id="phone" name="phone" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Gender</label>
+                            <label class="radio-inline">
+                            <input type="radio" name="gender" value="Male"checked>Male
+                            </label>
+                            <label class="radio-inline">
+                            <input type="radio" name="gender"  value="Female">Female
+                            </label>
+                            <label class="radio-inline">
+                            <input type="radio" name="gender"  value="Other">Other
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="religion">Religion</label>
+                        <input type="text" id="religion" name="religion" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" name="address" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input type="number" id="age" name="age" class="form-control" />
                     </div>
                     <div class="form-group">
                         <label for="password">Password</label>
